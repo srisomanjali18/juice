@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+
+.juice-menu {
+  /* background-image: url('/public/images/img-9.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+}
+
+.header-title {
+  padding: 20px;
+  backdrop-filter: blur(5px) saturate(70%);
+}
+
+.header-title h2 {
+  color: #fff;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  backdrop-filter: blur(5px) saturate(70%);
+}
+
+.sign-up {
+  background-image: url('/public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

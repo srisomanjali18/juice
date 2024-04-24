@@ -1,0 +1,48 @@
+
+
+.juice-card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 10px;
+    /* width: fit-content; */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s linear;
+    background-color: rgb(255, 255, 255);
+}
+
+.juice-card:hover {
+    box-shadow: 0 0 10px rgba(112, 112, 112, 0.3);
+}
+
+.juice-card > .img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.juice-card img {
+    width: 300px;
+    /* aspect-ratio: 16/9; */
+    height : 200px;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+
+.juice-card img:hover {
+    transform: scale(1.1);
+}
+
+.juice-card > .desc > .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.juice-card > .desc > .bottom > p {
+    padding: 10px;
+    width : 300px;
+
+}
